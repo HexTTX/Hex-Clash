@@ -23,8 +23,8 @@ jobs:
         run: |
           MIHOMO_TAG=$(curl -sSL https://api.github.com/repos/MetaCubeX/mihomo/releases/latest | jq -r .tag_name)
           echo "Using Mihomo release $MIHOMO_TAG"
-          curl -sSL "https://github.com/MetaCubeX/mihomo/releases/download/${MIHOMO_TAG}/mihomo-linux-amd64-${MIHOMO_TAG}.gz" | gzip -d > mihomo
-          chmod +x mihomo
+          curl -sSL "https://github.com/MetaCubeX/mihomo/releases/download/${MIHOMO_TAG}/mihomo-linux-amd64-${MIHOMO_TAG}.gz" | gzip -d > /tmp/mihomo
+          chmod +x /tmp/mihomo
 
       - name: Compile list to mrs (same directory)
         run: |
@@ -37,7 +37,7 @@ jobs:
             # Filter valid domain lines (exclude comments, blank lines, IP-CIDR, IP-ASN)
             grep -Ev '^\s*(#|//|$|IP-CIDR|IP-CIDR6|IP-ASN|PROCESS-NAME)' "$file" > /tmp/domain_rules.txt || true
             if [ -s /tmp/domain_rules.txt ]; then
-              ./mihomo convert-ruleset domain text /tmp/domain_rules.txt "$target"
+              /tmp/mihomo convert-ruleset domain text /tmp/domain_rules.txt "$target"
               echo "✓ Generated $target ($(wc -c < "$target") bytes)"
             fi
             rm -f /tmp/domain_rules.txt
