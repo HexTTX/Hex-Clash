@@ -1,0 +1,56 @@
+name: Build MRS Rulesets
+
+on:
+  push:
+    branches:
+      - main
+    paths:
+      - 'list/**.list'
+      - '.github/workflows/build-mrs.yml'
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Download latest Mihomo core
+        run: |
+          MIHOMO_TAG=$(curl -sSL https://api.github.com/repos/MetaCubeX/mihomo/releases/latest | jq -r .tag_name)
+          echo "Using Mihomo release $MIHOMO_TAG"
+          curl -sSL "https://github.com/MetaCubeX/mihomo/releases/download/${MIHOMO_TAG}/mihomo-linux-amd64-${MIHOMO_TAG}.gz" | gzip -d > mihomo
+          chmod +x mihomo
+
+      - name: Compile list to mrs (same directory)
+        run: |
+          find list -type f -name "*.list" | while read -r file; do
+            dir=$(dirname "$file")
+            base=$(basename "$file" .list)
+            target="${dir}/${base}.mrs"
+            echo "Processing $file -> $target"
+            
+            # Filter valid domain lines (exclude comments, blank lines, IP-CIDR, IP-ASN)
+            grep -Ev '^\s*(#|//|$|IP-CIDR|IP-CIDR6|IP-ASN|PROCESS-NAME)' "$file" > /tmp/domain_rules.txt || true
+            if [ -s /tmp/domain_rules.txt ]; then
+              ./mihomo convert-ruleset domain text /tmp/domain_rules.txt "$target"
+              echo "✓ Generated $target ($(wc -c < "$target") bytes)"
+            fi
+            rm -f /tmp/domain_rules.txt
+          done
+
+      - name: Commit and push compiled MRS files
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add list/
+          if git diff --staged --quiet; then
+            echo "No changes in MRS rulesets."
+          else
+            git commit -m "Auto-compile MRS rulesets in same directory [skip ci]"
+            git push origin main
+          fi
