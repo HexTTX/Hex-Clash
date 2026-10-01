@@ -1,0 +1,9 @@
+# NAME: Crunchyroll
+# AUTHOR: Hexon
+# REPO: https://github.com/HexTTX/Hex-Clash
+# UPDATED: 2026-10-01
+# TOTAL: 3
+
+DOMAIN-SUFFIX,crunchyroll.com
+DOMAIN-SUFFIX,crunchyrollcdn.com
+DOMAIN-SUFFIX,crunchyrollsvc.com
