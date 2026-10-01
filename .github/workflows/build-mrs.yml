@@ -5,7 +5,7 @@ on:
     branches:
       - main
     paths:
-      - 'list/**.list'
+      - '**.list'
       - '.github/workflows/build-mrs.yml'
   workflow_dispatch:
 
@@ -28,7 +28,7 @@ jobs:
 
       - name: Compile list to mrs (same directory)
         run: |
-          find list -type f -name "*.list" | while read -r file; do
+          find . -type f -name "*.list" ! -path "*/.*" | while read -r file; do
             dir=$(dirname "$file")
             base=$(basename "$file" .list)
             target="${dir}/${base}.mrs"
@@ -47,7 +47,7 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add list/
+          git add -A
           if git diff --staged --quiet; then
             echo "No changes in MRS rulesets."
           else
