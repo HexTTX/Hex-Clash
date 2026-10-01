@@ -1,17 +1,18 @@
 # NAME: Claude
 # AUTHOR: Hexon
-# REPO: https://github.com/Hexon-X/Hex-Clash
-# UPDATED: 2026-04-15
+# REPO: https://github.com/HexTTX/Hex-Clash
+# UPDATED: 2026-10-01
 # DOMAIN: 9
-# DOMAIN-SUFFIX: 15
-# DOMAIN-KEYWORD: 3
+# DOMAIN-SUFFIX: 16
+# DOMAIN-KEYWORD: 4
 # IP-CIDR: 1
 # IP-CIDR6: 1
 # IP-ASN: 1
-# TOTAL: 30
+# TOTAL: 32
 
 # 关键字匹配
 DOMAIN-KEYWORD,claude
+DOMAIN-KEYWORD,anthropic
 DOMAIN-KEYWORD,datadog
 DOMAIN-KEYWORD,sift
 
@@ -36,6 +37,7 @@ DOMAIN-SUFFIX,anthropiccdn.com
 DOMAIN-SUFFIX,anthropic-cdn.com
 DOMAIN-SUFFIX,claudeusercontent.com
 DOMAIN-SUFFIX,claudemcpclient.com
+DOMAIN-SUFFIX,claudemcpcontent.com
 DOMAIN-SUFFIX,anthropicsystem.com
 DOMAIN-SUFFIX,anthropic.cloud
 DOMAIN-SUFFIX,sentry.io

@@ -1,40 +1,56 @@
 # NAME: OpenAI
 # AUTHOR: Hexon
-# REPO: https://github.com/Hexon-X/Hex-Clash
-# UPDATED: 2026-01-24
-# DOMAIN: 7
-# DOMAIN-KEYWORD: 1
-# DOMAIN-SUFFIX: 24
-# TOTAL: 32
+# REPO: https://github.com/HexTTX/Hex-Clash
+# UPDATED: 2026-10-01
+# DOMAIN: 15
+# DOMAIN-KEYWORD: 3
+# DOMAIN-SUFFIX: 33
+# TOTAL: 52
 
 # 关键字匹配
 DOMAIN-KEYWORD,openai
+DOMAIN-KEYWORD,chatgpt
+DOMAIN-KEYWORD,codex
 
 # 核心域名
-DOMAIN,cdn.auth0.com
-DOMAIN,browser-intake-datadoghq.com
-DOMAIN,chat.openai.com
+DOMAIN,openai-api.arkoselabs.com
 DOMAIN,ab.chatgpt.com
-DOMAIN,cdn.oaistatic.com
 DOMAIN,api-js.mixpanel.com
+DOMAIN,browser-intake-datadoghq.com
+DOMAIN,cdn.auth0.com
+DOMAIN,cdn.oaistatic.com
+DOMAIN,chat.openai.com
+DOMAIN,o33249.ingest.sentry.io
+DOMAIN,openai.com.cdn.cloudflare.net
+DOMAIN,openai.qualtrics.com
+DOMAIN,openaiassets.blob.core.windows.net
+DOMAIN,openaicom-api-bdcpf8c6d2e9atf6.z01.azurefd.net
+DOMAIN,openaicomproductionae4b.blob.core.windows.net
+DOMAIN,production-openaicom-storage.azureedge.net
 DOMAIN,s.gravatar.com
 
 # 域名后缀
 DOMAIN-SUFFIX,ai.com
 DOMAIN-SUFFIX,auth0.com
 DOMAIN-SUFFIX,challenges.cloudflare.com
+DOMAIN-SUFFIX,chat.com
 DOMAIN-SUFFIX,chatgpt.com
+DOMAIN-SUFFIX,chatgpt.livekit.cloud
+DOMAIN-SUFFIX,chatgpt.site
 DOMAIN-SUFFIX,client-api.arkoselabs.com
 DOMAIN-SUFFIX,compute-pipe.com
+DOMAIN-SUFFIX,crixet.com
 DOMAIN-SUFFIX,edgecompute.app
 DOMAIN-SUFFIX,events.statsigapi.net
 DOMAIN-SUFFIX,featuregates.org
+DOMAIN-SUFFIX,host.livekit.cloud
 DOMAIN-SUFFIX,identrust.com
 DOMAIN-SUFFIX,intercom.io
 DOMAIN-SUFFIX,intercomcdn.com
 DOMAIN-SUFFIX,livekit.cloud
 DOMAIN-SUFFIX,mixpanel.com
 DOMAIN-SUFFIX,oaistatic.com
+DOMAIN-SUFFIX,oaistatsig.com
 DOMAIN-SUFFIX,oaiusercontent.com
 DOMAIN-SUFFIX,openai.com
 DOMAIN-SUFFIX,openai.org
@@ -42,6 +58,11 @@ DOMAIN-SUFFIX,openaiapi-site.azureedge.net
 DOMAIN-SUFFIX,openaicom.imgix.net
 DOMAIN-SUFFIX,revenuecat.com
 DOMAIN-SUFFIX,sentry.io
+DOMAIN-SUFFIX,sora.com
 DOMAIN-SUFFIX,statsig.com
 DOMAIN-SUFFIX,stripe.com
+DOMAIN-SUFFIX,turn.livekit.cloud
 DOMAIN-SUFFIX,webpubsub.azure.com
+
+# 官方 IP / ASN 兜底
+IP-ASN,20473,no-resolve

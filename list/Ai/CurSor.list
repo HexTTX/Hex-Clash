@@ -1,11 +1,11 @@
 # NAME: Cursor
 # AUTHOR: Hexon
-# REPO: https://github.com/Hexon-X/Hex-Clash
-# UPDATED: 2026-01-24
+# REPO: https://github.com/HexTTX/Hex-Clash
+# UPDATED: 2026-10-01
 # DOMAIN: 5
-# DOMAIN-SUFFIX: 4
 # DOMAIN-KEYWORD: 1
-# TOTAL: 10
+# DOMAIN-SUFFIX: 6
+# TOTAL: 12
 
 # 关键字匹配
 DOMAIN-KEYWORD,cursor
@@ -15,12 +15,12 @@ DOMAIN,api.cursor.sh
 DOMAIN,api2.cursor.sh
 DOMAIN,api3.cursor.sh
 DOMAIN,marketplace.cursorapi.com
-
-# AWS S3 调试数据上传
 DOMAIN,cursor-user-debugging-data.s3.us-east-1.amazonaws.com
 
 # 域名后缀
 DOMAIN-SUFFIX,cursor.sh
 DOMAIN-SUFFIX,cursor.com
-DOMAIN-SUFFIX,cursorapi.com
 DOMAIN-SUFFIX,cursor.us
+DOMAIN-SUFFIX,cursorapi.com
+DOMAIN-SUFFIX,cursor-cdn.com
+DOMAIN-SUFFIX,workos.com

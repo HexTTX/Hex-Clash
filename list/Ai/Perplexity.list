@@ -1,0 +1,22 @@
+# NAME: Perplexity
+# AUTHOR: Hexon
+# REPO: https://github.com/HexTTX/Hex-Clash
+# UPDATED: 2026-10-01
+# DOMAIN: 3
+# DOMAIN-KEYWORD: 1
+# DOMAIN-SUFFIX: 4
+# TOTAL: 8
+
+# 关键字匹配
+DOMAIN-KEYWORD,perplexity
+
+# 核心域名与上传/CDN
+DOMAIN,api.perplexity.ai
+DOMAIN,ppl-ai-file-upload.s3.amazonaws.com
+DOMAIN,pplx-res.cloudinary.com
+
+# 域名后缀
+DOMAIN-SUFFIX,perplexity.ai
+DOMAIN-SUFFIX,perplexity.com
+DOMAIN-SUFFIX,pplx.ai
+DOMAIN-SUFFIX,labs.perplexity.ai
