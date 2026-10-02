@@ -28,7 +28,7 @@ jobs:
 
       - name: Compile list to mrs (same directory)
         run: |
-          find . -type f -name "*.list" ! -path "*/.*" | while read -r file; do
+          find . -type f -name "*.list" ! -path "*/.*" ! -path "*/Media/TVBox.list" | while read -r file; do
             dir=$(dirname "$file")
             base=$(basename "$file" .list)
             target="${dir}/${base}.mrs"
