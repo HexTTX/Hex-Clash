@@ -34,8 +34,16 @@ jobs:
             target="${dir}/${base}.mrs"
             echo "Processing $file -> $target"
             
-            # Filter valid domain lines (exclude comments, blank lines, IP-CIDR, IP-ASN)
-            grep -Ev '^\s*(#|//|$|IP-CIDR|IP-CIDR6|IP-ASN|PROCESS-NAME)' "$file" > /tmp/domain_rules.txt || true
+            # Clean and normalize domain rules:
+            # 1. Remove CR (Windows CRLF), comments, blank lines, IP ranges, keywords
+            # 2. Convert DOMAIN-SUFFIX,example.com -> +.example.com
+            # 3. Convert DOMAIN,example.com -> example.com
+            # 4. Remove optional trailing parameters like ,no-resolve
+            tr -d '\r' < "$file" | \
+              grep -Ev '^[[:space:]]*(#|//|$|IP-CIDR|IP-CIDR6|IP-ASN|PROCESS-NAME|DOMAIN-KEYWORD)' | \
+              sed -E -e 's/,[[:space:]]*no-resolve[[:space:]]*$//' \
+                     -e 's/^[Dd][Oo][Mm][Aa][Ii][Nn]-[Ss][Uu][Ff][Ff][Ii][Xx],[[:space:]]*/+./' \
+                     -e 's/^[Dd][Oo][Mm][Aa][Ii][Nn],[[:space:]]*//' > /tmp/domain_rules.txt || true
             if [ -s /tmp/domain_rules.txt ]; then
               /tmp/mihomo convert-ruleset domain text /tmp/domain_rules.txt "$target"
               echo "✓ Generated $target ($(wc -c < "$target") bytes)"
