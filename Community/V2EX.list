@@ -1,0 +1,25 @@
+# NAME: V2EX
+# AUTHOR: Hexon
+# REPO: https://github.com/HexTTX/Hex-Clash
+# UPDATED: 2026-10-02
+# DOMAIN: 5
+# DOMAIN-KEYWORD: 1
+# DOMAIN-SUFFIX: 3
+# TOTAL: 9
+
+# 关键字匹配
+DOMAIN-KEYWORD,v2ex
+
+# 核心域名
+DOMAIN,v2ex.com
+DOMAIN,www.v2ex.com
+DOMAIN,i.v2ex.co
+
+# 静态资源与统计分析
+DOMAIN,v2ex.assets.uxengine.net
+DOMAIN,static.v2ex.com
+
+# 域名后缀
+DOMAIN-SUFFIX,v2ex.com
+DOMAIN-SUFFIX,v2ex.co
+DOMAIN-SUFFIX,v2core.com

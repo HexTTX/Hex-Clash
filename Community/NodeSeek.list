@@ -1,0 +1,19 @@
+# NAME: NodeSeek
+# AUTHOR: Hexon
+# REPO: https://github.com/HexTTX/Hex-Clash
+# UPDATED: 2026-10-02
+# DOMAIN: 3
+# DOMAIN-KEYWORD: 1
+# DOMAIN-SUFFIX: 1
+# TOTAL: 5
+
+# 关键字匹配
+DOMAIN-KEYWORD,nodeseek
+
+# 核心域名与服务
+DOMAIN,nodeseek.com
+DOMAIN,www.nodeseek.com
+DOMAIN,support.nodeseek.com
+
+# 域名后缀
+DOMAIN-SUFFIX,nodeseek.com

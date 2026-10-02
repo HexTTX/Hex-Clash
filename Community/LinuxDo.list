@@ -1,0 +1,33 @@
+# NAME: LinuxDo
+# AUTHOR: Hexon
+# REPO: https://github.com/HexTTX/Hex-Clash
+# UPDATED: 2026-10-02
+# DOMAIN: 6
+# DOMAIN-KEYWORD: 1
+# DOMAIN-SUFFIX: 3
+# IP-CIDR: 2
+# TOTAL: 12
+# 社区域名-直连「邀请码申请」
+# invite.linuxdo.org
+# DOMAIN-SUFFIX,linuxdo.org
+
+# 关键字匹配
+DOMAIN-KEYWORD,linuxdo
+
+# 核心域名与服务
+DOMAIN,linux.do
+DOMAIN,connect.linux.do
+DOMAIN,cdk.linux.do
+
+# 静态资源与实时心跳总线 (rust-bus)
+DOMAIN,cdn.ldstatic.com
+DOMAIN,cdn3.ldstatic.com
+DOMAIN,ping.ldstatic.com
+
+# 域名后缀
+DOMAIN-SUFFIX,linux.do
+DOMAIN-SUFFIX,ldstatic.com
+
+# 服务器 IP (Cloudflare Anycast)
+IP-CIDR,104.20.16.234/32,no-resolve
+IP-CIDR,172.66.166.61/32,no-resolve
