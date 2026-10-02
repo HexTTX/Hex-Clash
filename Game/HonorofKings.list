@@ -1,12 +1,12 @@
 # NAME: Honor of Kings Global
 # AUTHOR: Hexon
 # REPO: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2026-03-14
+# UPDATED: 2026-10-03
 # DOMAIN: 2
-# DOMAIN-SUFFIX: 10
+# DOMAIN-SUFFIX: 9
 # DOMAIN-KEYWORD: 2
 # IP-CIDR: 2
-# TOTAL: 16
+# TOTAL: 15
 
 # 关键字匹配 (涵盖大部分腾讯国际版游戏流量)
 DOMAIN-KEYWORD,sgameglobal
@@ -33,7 +33,8 @@ DOMAIN-SUFFIX,gcloudcs.com
 DOMAIN-SUFFIX,midasbuy.com
 
 # 广告与数据归因 (游戏启动及活动验证)
-DOMAIN-SUFFIX,appsflyersdk.com
+# （appsflyersdk.com 已移除：AppsFlyer 是全行业归因 SDK，此条会把
+#   Binance/Crypto 等其他 App 的 zftksc.*.appsflyersdk.com 抢到 Games 组）
 
 # IP 段匹配 (不解析域名直接分流)
 IP-CIDR,183.192.65.101/16,no-resolve

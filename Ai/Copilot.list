@@ -1,10 +1,10 @@
 # NAME: Copilot
 # AUTHOR: Hexon
 # REPO: https://github.com/HexTTX/Hex-Clash
-# UPDATED: 2026-10-01
+# UPDATED: 2026-10-03
 # DOMAIN: 36
-# DOMAIN-SUFFIX: 4
-# TOTAL: 40
+# DOMAIN-SUFFIX: 3
+# TOTAL: 39
 
 # 核心域名
 DOMAIN,copilot.microsoft.com
@@ -63,7 +63,6 @@ DOMAIN,origin-tracker.githubusercontent.com
 DOMAIN,default.exp-tas.com
 
 # 域名后缀
-DOMAIN-SUFFIX,bing.com
 DOMAIN-SUFFIX,prod.do.dsp.mp.microsoft.com
 DOMAIN-SUFFIX,copilot.cloud.microsoft
 DOMAIN-SUFFIX,ai.azure.com

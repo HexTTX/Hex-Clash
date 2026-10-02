@@ -1,10 +1,10 @@
 # NAME: OpenAI
 # AUTHOR: Hexon
 # REPO: https://github.com/HexTTX/Hex-Clash
-# UPDATED: 2026-10-01
-# DOMAIN: 15
+# UPDATED: 2026-10-03
+# DOMAIN: 16
 # DOMAIN-KEYWORD: 3
-# DOMAIN-SUFFIX: 33
+# DOMAIN-SUFFIX: 32
 # TOTAL: 52
 
 # 关键字匹配
@@ -31,7 +31,7 @@ DOMAIN,s.gravatar.com
 
 # 域名后缀
 DOMAIN-SUFFIX,ai.com
-DOMAIN-SUFFIX,auth0.com
+DOMAIN,openai.auth0.com
 DOMAIN-SUFFIX,challenges.cloudflare.com
 DOMAIN-SUFFIX,chat.com
 DOMAIN-SUFFIX,chatgpt.com
