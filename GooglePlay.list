@@ -1,0 +1,28 @@
+# Google Play 商店下载链路
+# 作用:保证 Play 商店的 API 会话与下载 CDN 走同一代理出口,
+# 修复下载卡在 1%(CDN 走了直连被阻断)或 99%(节点不支持 UDP/QUIC)的问题
+
+# 商店前端 / 客户端 API
+DOMAIN,play.google.com
+DOMAIN,play.googleapis.com
+DOMAIN,play-fe.googleapis.com
+DOMAIN,android.clients.google.com
+DOMAIN,android.googleapis.com
+DOMAIN,mobileclients.googleapis.com
+DOMAIN,clients4.google.com
+DOMAIN,clients5.google.com
+DOMAIN,clients6.google.com
+
+# 应用下载 CDN(下载地址为随机子域名,必须用 DOMAIN-SUFFIX)
+DOMAIN-SUFFIX,gvt1.com
+DOMAIN-SUFFIX,gvt2.com
+DOMAIN-SUFFIX,gvt3.com
+# Play 下载专用域(punycode,即 ångström.com)
+DOMAIN-SUFFIX,xn--ngstr-lra8j.com
+DOMAIN,dl.google.com
+
+# 备注:
+# - googleusercontent.com / gstatic.com 覆盖面过宽,按仓库收敛原则不纳入;
+#   如商店页面图片加载慢,可自行添加 DOMAIN-SUFFIX,googleusercontent.com
+# - 卡 99% 通常与规则无关:Play 默认走 QUIC(UDP 443),节点不支持 UDP 时
+#   最后阶段无响应,可对 Google 域名 REJECT UDP 443 强制回退 TCP
