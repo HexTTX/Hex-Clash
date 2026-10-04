@@ -1,11 +1,11 @@
 # NAME: OpenAI
 # AUTHOR: Hexon
 # REPO: https://github.com/HexTTX/Hex-Clash
-# UPDATED: 2026-10-03
+# UPDATED: 2026-10-04
 # DOMAIN: 16
 # DOMAIN-KEYWORD: 3
-# DOMAIN-SUFFIX: 32
-# TOTAL: 52
+# DOMAIN-SUFFIX: 34
+# TOTAL: 54
 
 # 关键字匹配
 DOMAIN-KEYWORD,openai
@@ -63,6 +63,8 @@ DOMAIN-SUFFIX,statsig.com
 DOMAIN-SUFFIX,stripe.com
 DOMAIN-SUFFIX,turn.livekit.cloud
 DOMAIN-SUFFIX,webpubsub.azure.com
+DOMAIN-SUFFIX,statsigapi.net
+DOMAIN-SUFFIX,observeit.net
 
 # 官方 IP / ASN 兜底
 IP-ASN,20473,no-resolve

@@ -1,11 +1,11 @@
 # NAME: Gemini
 # AUTHOR: Hexon
 # REPO: https://github.com/HexTTX/Hex-Clash
-# UPDATED: 2026-10-01
+# UPDATED: 2026-10-04
 # DOMAIN: 13
 # DOMAIN-KEYWORD: 3
-# DOMAIN-SUFFIX: 29
-# TOTAL: 45
+# DOMAIN-SUFFIX: 35
+# TOTAL: 51
 
 # 关键字匹配
 DOMAIN-KEYWORD,colab
@@ -57,3 +57,9 @@ DOMAIN-SUFFIX,proactivebackend-pa.googleapis.com
 DOMAIN-SUFFIX,stitch.withgoogle.com
 DOMAIN-SUFFIX,aistudio.google.com
 DOMAIN-SUFFIX,generativelanguage.googleapis.com
+DOMAIN-SUFFIX,gemini.google
+DOMAIN-SUFFIX,antigravity.google.com
+DOMAIN-SUFFIX,aida.googleapis.com
+DOMAIN-SUFFIX,aisandbox-pa.googleapis.com
+DOMAIN-SUFFIX,geller-pa.googleapis.com
+DOMAIN-SUFFIX,robinfrontend-pa.googleapis.com

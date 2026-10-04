@@ -1,0 +1,17 @@
+# NAME: Kiro
+# AUTHOR: Hexon
+# REPO: https://github.com/HexTTX/Hex-Clash
+# UPDATED: 2026-10-04
+# DOMAIN: 0
+# DOMAIN-KEYWORD: 1
+# DOMAIN-SUFFIX: 4
+# TOTAL: 5
+
+# 关键字匹配
+DOMAIN-KEYWORD,kiro
+
+# 核心域名后缀与 AWS 运算端点
+DOMAIN-SUFFIX,kiro.dev
+DOMAIN-SUFFIX,kiro.ai
+DOMAIN-SUFFIX,q.us-east-1.amazonaws.com
+DOMAIN-SUFFIX,q.eu-central-1.amazonaws.com
