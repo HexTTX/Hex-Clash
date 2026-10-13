@@ -1,11 +1,11 @@
 # NAME: Gemini
 # AUTHOR: Hexon
 # REPO: https://github.com/HexTTX/Hex-Clash
-# UPDATED: 2026-10-04
-# DOMAIN: 13
+# UPDATED: 2026-10-14
+# DOMAIN: 20
 # DOMAIN-KEYWORD: 3
 # DOMAIN-SUFFIX: 35
-# TOTAL: 51
+# TOTAL: 58
 
 # 关键字匹配
 DOMAIN-KEYWORD,colab
@@ -63,3 +63,15 @@ DOMAIN-SUFFIX,aida.googleapis.com
 DOMAIN-SUFFIX,aisandbox-pa.googleapis.com
 DOMAIN-SUFFIX,geller-pa.googleapis.com
 DOMAIN-SUFFIX,robinfrontend-pa.googleapis.com
+
+# 页面依赖链（Gemini Web 加载/会话必需，缺失会被下方 GoogleCN(DIRECT)/Google(香港) 截胡）
+# www.gstatic.com = 前端 JS/CSS 主域（Gemini 页面内 227 处引用）
+# ogs.google.com = One Google Bar；lh3.googleusercontent.com = 头像与图片
+# signaler-pa.clients6.google.com = 实时信令；ogads-pa = One Google Bar 广告位
+DOMAIN,www.gstatic.com
+DOMAIN,ssl.gstatic.com
+DOMAIN,fonts.gstatic.com
+DOMAIN,ogs.google.com
+DOMAIN,lh3.googleusercontent.com
+DOMAIN,signaler-pa.clients6.google.com
+DOMAIN,ogads-pa.clients6.google.com
