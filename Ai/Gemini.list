@@ -19,19 +19,30 @@ DOMAIN,alkalimakersuite-pa.clients6.google.com
 DOMAIN,antigravity-pa.googleapis.com
 DOMAIN,antigravity.googleapis.com
 DOMAIN,daily-cloudcode-pa.googleapis.com
+DOMAIN,fonts.gstatic.com
 DOMAIN,geminiweb-pa.clients.google.com
 DOMAIN,geminiweb-pa.clients6.google.com
+DOMAIN,lh3.googleusercontent.com
 DOMAIN,makersuite.google.com
 DOMAIN,notebooklm-pa.googleapis.com
 DOMAIN,notebooklm.googleapis.com
+DOMAIN,ogads-pa.clients6.google.com
+DOMAIN,ogs.google.com
+DOMAIN,signaler-pa.clients6.google.com
+DOMAIN,ssl.gstatic.com
 DOMAIN,waa-pa.clients6.google.com
 DOMAIN,webchannel-alkalimakersuite-pa.clients6.google.com
+DOMAIN,www.gstatic.com
 
 # 域名后缀
 DOMAIN-SUFFIX,ai.studio
 DOMAIN-SUFFIX,aicode.googleapis.com
+DOMAIN-SUFFIX,aida.googleapis.com
+DOMAIN-SUFFIX,aisandbox-pa.googleapis.com
+DOMAIN-SUFFIX,aistudio.google.com
 DOMAIN-SUFFIX,antigravity-unleash.goog
 DOMAIN-SUFFIX,antigravity.google
+DOMAIN-SUFFIX,antigravity.google.com
 DOMAIN-SUFFIX,bard.google.com
 DOMAIN-SUFFIX,cloudaicompanion.googleapis.com
 DOMAIN-SUFFIX,cloudcode-pa.googleapis.com
@@ -39,9 +50,12 @@ DOMAIN-SUFFIX,deepmind.com
 DOMAIN-SUFFIX,deepmind.google
 DOMAIN-SUFFIX,flow.google
 DOMAIN-SUFFIX,flow.google.com
+DOMAIN-SUFFIX,geller-pa.googleapis.com
+DOMAIN-SUFFIX,gemini.google
 DOMAIN-SUFFIX,gemini.google.com
 DOMAIN-SUFFIX,gemini.gstatic.com
 DOMAIN-SUFFIX,generativeai.google
+DOMAIN-SUFFIX,generativelanguage.googleapis.com
 DOMAIN-SUFFIX,jules.google
 DOMAIN-SUFFIX,jules.google.com
 DOMAIN-SUFFIX,labs.google
@@ -54,24 +68,5 @@ DOMAIN-SUFFIX,notebooklm.google.com
 DOMAIN-SUFFIX,opal.google
 DOMAIN-SUFFIX,opal.google.com
 DOMAIN-SUFFIX,proactivebackend-pa.googleapis.com
-DOMAIN-SUFFIX,stitch.withgoogle.com
-DOMAIN-SUFFIX,aistudio.google.com
-DOMAIN-SUFFIX,generativelanguage.googleapis.com
-DOMAIN-SUFFIX,gemini.google
-DOMAIN-SUFFIX,antigravity.google.com
-DOMAIN-SUFFIX,aida.googleapis.com
-DOMAIN-SUFFIX,aisandbox-pa.googleapis.com
-DOMAIN-SUFFIX,geller-pa.googleapis.com
 DOMAIN-SUFFIX,robinfrontend-pa.googleapis.com
-
-# 页面依赖链（Gemini Web 加载/会话必需，缺失会被下方 GoogleCN(DIRECT)/Google(香港) 截胡）
-# www.gstatic.com = 前端 JS/CSS 主域（Gemini 页面内 227 处引用）
-# ogs.google.com = One Google Bar；lh3.googleusercontent.com = 头像与图片
-# signaler-pa.clients6.google.com = 实时信令；ogads-pa = One Google Bar 广告位
-DOMAIN,www.gstatic.com
-DOMAIN,ssl.gstatic.com
-DOMAIN,fonts.gstatic.com
-DOMAIN,ogs.google.com
-DOMAIN,lh3.googleusercontent.com
-DOMAIN,signaler-pa.clients6.google.com
-DOMAIN,ogads-pa.clients6.google.com
+DOMAIN-SUFFIX,stitch.withgoogle.com
