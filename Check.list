@@ -1,68 +1,75 @@
-IP-CIDR,142.251.215.0/24,no-resolve
+# NAME: Check
+# AUTHOR: Hexon
+# REPO: https://github.com/HexTTX/Hex-Clash
+# UPDATED: 2026-10-14
+# DOMAIN: 1
+# DOMAIN-SUFFIX: 58
+# IP-CIDR: 2
+# TOTAL: 61
 
-DOMAIN-SUFFIX,vultr.com
-DOMAIN-SUFFIX,test-ipv6.com
-DOMAIN-SUFFIX,ipw.cn
-
-DOMAIN-SUFFIX,ipcheck.im
-
+# 核心域名
 DOMAIN,speed.cloudflare.com
-DOMAIN-SUFFIX,fast.com
-# DOMAIN,ichnaea-web.netflix.com
-# DOMAIN-SUFFIX,1.oca.nflxvideo.net
-DOMAIN-SUFFIX,speedcheck.org
-DOMAIN-SUFFIX,speedtest.net
-DOMAIN-SUFFIX,speedtest.cn
-DOMAIN-SUFFIX,ustc.edu.cn
-DOMAIN-SUFFIX,dnscheck.tools
-DOMAIN-SUFFIX,whoer.net
-DOMAIN-SUFFIX,browserleaks.com
-DOMAIN-SUFFIX,browserleaks.org
-DOMAIN-SUFFIX,browserleaks.net
-DOMAIN-SUFFIX,dnsleaktest.org
+
+# 域名后缀
 DOMAIN-SUFFIX,1-b.net
-DOMAIN-SUFFIX,workers.dev
-DOMAIN-SUFFIX,jsonp-ip.com
-DOMAIN-SUFFIX,sspanel.net
-
-DOMAIN-SUFFIX,dnsleaktest.com
-DOMAIN-SUFFIX,browserscan.net
-DOMAIN-SUFFIX,surfshark.com
-DOMAIN-SUFFIX,surfsharkdns.com
-DOMAIN-SUFFIX,ip-api.com
-
-DOMAIN-SUFFIX,ipleak.net
-DOMAIN-SUFFIX,ip-score.com
 DOMAIN-SUFFIX,888005.xyz
+DOMAIN-SUFFIX,addr.tools
+DOMAIN-SUFFIX,browserleaks.com
+DOMAIN-SUFFIX,browserleaks.net
+DOMAIN-SUFFIX,browserleaks.org
+DOMAIN-SUFFIX,browserscan.net
+DOMAIN-SUFFIX,cleanip.io
+DOMAIN-SUFFIX,dnscheck.tools
+DOMAIN-SUFFIX,dnsleaktest.com
+DOMAIN-SUFFIX,dnsleaktest.org
+DOMAIN-SUFFIX,fast.com
+DOMAIN-SUFFIX,ifconfig.me
 DOMAIN-SUFFIX,incolumitas.com
-
+DOMAIN-SUFFIX,ip-api.com
+DOMAIN-SUFFIX,ip-score.com
+DOMAIN-SUFFIX,ip.sb
+DOMAIN-SUFFIX,ip111.cn
+DOMAIN-SUFFIX,ip125.com
+DOMAIN-SUFFIX,ip2proxy.com
+DOMAIN-SUFFIX,ipaddress.me
+DOMAIN-SUFFIX,ipcheck.im
+DOMAIN-SUFFIX,ipcheck.ing
+DOMAIN-SUFFIX,ipify.org
+DOMAIN-SUFFIX,ipinfo.cv
+DOMAIN-SUFFIX,iplark.com
+DOMAIN-SUFFIX,ipleak.net
+DOMAIN-SUFFIX,ippure.com
+DOMAIN-SUFFIX,ipw.cn
+DOMAIN-SUFFIX,jsonp-ip.com
+DOMAIN-SUFFIX,l.google.com
+DOMAIN-SUFFIX,meowvps.com
+DOMAIN-SUFFIX,net.coffee
+DOMAIN-SUFFIX,nexscan.net
+DOMAIN-SUFFIX,null-addr.biz
 DOMAIN-SUFFIX,null-addr.com
+DOMAIN-SUFFIX,null-addr.info
 DOMAIN-SUFFIX,null-addr.net
 DOMAIN-SUFFIX,null-addr.org
-DOMAIN-SUFFIX,null-addr.biz
-DOMAIN-SUFFIX,null-addr.info
-DOMAIN-SUFFIX,addr.tools
-
-DOMAIN-SUFFIX,ippure.com
-DOMAIN-SUFFIX,iplark.com
-DOMAIN-SUFFIX,ifconfig.me
-DOMAIN-SUFFIX,ip125.com
-DOMAIN-SUFFIX,skk.moe
-DOMAIN-SUFFIX,ip111.cn
-DOMAIN-SUFFIX,vultr.com
 DOMAIN-SUFFIX,ping0.cc
-DOMAIN-SUFFIX,incolumitas.com
-DOMAIN-SUFFIX,ip.sb
-DOMAIN-SUFFIX,ipify.org
-DOMAIN-SUFFIX,whoer.com
-DOMAIN-SUFFIX,whatismyip.com.tw
-DOMAIN-SUFFIX,whatismyip.com
-DOMAIN-SUFFIX,whoisip.me
-DOMAIN-SUFFIX,ipaddress.me
-DOMAIN-SUFFIX,ip2proxy.com
+DOMAIN-SUFFIX,rss.ink
+DOMAIN-SUFFIX,skk.moe
+DOMAIN-SUFFIX,speedcheck.org
+DOMAIN-SUFFIX,speedtest.cn
+DOMAIN-SUFFIX,speedtest.net
+DOMAIN-SUFFIX,sspanel.net
+DOMAIN-SUFFIX,surfshark.com
+DOMAIN-SUFFIX,surfsharkdns.com
+DOMAIN-SUFFIX,test-ipv6.com
+DOMAIN-SUFFIX,ustc.edu.cn
 DOMAIN-SUFFIX,vpnapi.io
+DOMAIN-SUFFIX,vultr.com
+DOMAIN-SUFFIX,whatismyip.com
+DOMAIN-SUFFIX,whatismyip.com.tw
+DOMAIN-SUFFIX,whoer.com
+DOMAIN-SUFFIX,whoer.net
+DOMAIN-SUFFIX,whoisip.me
+DOMAIN-SUFFIX,workers.dev
 
-
+# IP-CIDR
+IP-CIDR,142.251.215.0/24,no-resolve
 IP-CIDR,74.125.250.129/24,no-resolve
-
-DOMAIN-SUFFIX,l.google.com
