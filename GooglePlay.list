@@ -1,3 +1,11 @@
+# NAME: GooglePlay
+# AUTHOR: Hexon
+# REPO: https://github.com/HexTTX/Hex-Clash
+# UPDATED: 2026-10-02
+# DOMAIN: 10
+# DOMAIN-SUFFIX: 4
+# TOTAL: 14
+
 # Google Play 商店下载链路
 # 作用:保证 Play 商店的 API 会话与下载 CDN 走同一代理出口,
 # 修复下载卡在 1%(CDN 走了直连被阻断)或 99%(节点不支持 UDP/QUIC)的问题
@@ -12,6 +20,7 @@ DOMAIN,mobileclients.googleapis.com
 DOMAIN,clients4.google.com
 DOMAIN,clients5.google.com
 DOMAIN,clients6.google.com
+DOMAIN,dl.google.com
 
 # 应用下载 CDN(下载地址为随机子域名,必须用 DOMAIN-SUFFIX)
 DOMAIN-SUFFIX,gvt1.com
@@ -19,7 +28,6 @@ DOMAIN-SUFFIX,gvt2.com
 DOMAIN-SUFFIX,gvt3.com
 # Play 下载专用域(punycode,即 ångström.com)
 DOMAIN-SUFFIX,xn--ngstr-lra8j.com
-DOMAIN,dl.google.com
 
 # 备注:
 # - googleusercontent.com / gstatic.com 覆盖面过宽,按仓库收敛原则不纳入;

@@ -72,4 +72,4 @@ DOMAIN-SUFFIX,workers.dev
 
 # IP-CIDR
 IP-CIDR,142.251.215.0/24,no-resolve
-IP-CIDR,74.125.250.129/24,no-resolve
+IP-CIDR,74.125.250.0/24,no-resolve

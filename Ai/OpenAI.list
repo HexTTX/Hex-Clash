@@ -28,10 +28,10 @@ DOMAIN,openaicom-api-bdcpf8c6d2e9atf6.z01.azurefd.net
 DOMAIN,openaicomproductionae4b.blob.core.windows.net
 DOMAIN,production-openaicom-storage.azureedge.net
 DOMAIN,s.gravatar.com
+DOMAIN,openai.auth0.com
 
 # 域名后缀
 DOMAIN-SUFFIX,ai.com
-DOMAIN,openai.auth0.com
 DOMAIN-SUFFIX,challenges.cloudflare.com
 DOMAIN-SUFFIX,chat.com
 DOMAIN-SUFFIX,chatgpt.com
