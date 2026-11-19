@@ -3,8 +3,8 @@
 # REPO: https://github.com/HexTTX/Hex-Clash
 # UPDATED: 2026-11-19
 # DOMAIN: 20
-# DOMAIN-SUFFIX: 35
-# TOTAL: 55
+# DOMAIN-SUFFIX: 37
+# TOTAL: 57
 
 # 核心域名
 DOMAIN,ai.google.dev
@@ -40,8 +40,10 @@ DOMAIN-SUFFIX,antigravity.google.com
 DOMAIN-SUFFIX,bard.google.com
 DOMAIN-SUFFIX,cloudaicompanion.googleapis.com
 DOMAIN-SUFFIX,cloudcode-pa.googleapis.com
+DOMAIN-SUFFIX,colab.google
 DOMAIN-SUFFIX,deepmind.com
 DOMAIN-SUFFIX,deepmind.google
+DOMAIN-SUFFIX,developerprofiles.google.com
 DOMAIN-SUFFIX,flow.google
 DOMAIN-SUFFIX,flow.google.com
 DOMAIN-SUFFIX,geller-pa.googleapis.com

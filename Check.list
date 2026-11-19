@@ -3,8 +3,8 @@
 # REPO: https://github.com/HexTTX/Hex-Clash
 # UPDATED: 2026-11-19
 # DOMAIN: 1
-# DOMAIN-SUFFIX: 58
-# TOTAL: 59
+# DOMAIN-SUFFIX: 63
+# TOTAL: 64
 
 # 核心域名
 DOMAIN,speed.cloudflare.com
@@ -26,11 +26,13 @@ DOMAIN-SUFFIX,ifconfig.me
 DOMAIN-SUFFIX,incolumitas.com
 DOMAIN-SUFFIX,ip-api.com
 DOMAIN-SUFFIX,ip-score.com
+DOMAIN-SUFFIX,ip.guide
 DOMAIN-SUFFIX,ip.sb
 DOMAIN-SUFFIX,ip111.cn
 DOMAIN-SUFFIX,ip125.com
 DOMAIN-SUFFIX,ip2proxy.com
 DOMAIN-SUFFIX,ipaddress.me
+DOMAIN-SUFFIX,ipapi.co
 DOMAIN-SUFFIX,ipcheck.im
 DOMAIN-SUFFIX,ipcheck.ing
 DOMAIN-SUFFIX,ipify.org
@@ -38,9 +40,9 @@ DOMAIN-SUFFIX,ipinfo.cv
 DOMAIN-SUFFIX,iplark.com
 DOMAIN-SUFFIX,ipleak.net
 DOMAIN-SUFFIX,ippure.com
+DOMAIN-SUFFIX,ipqualityscore.com
 DOMAIN-SUFFIX,ipw.cn
 DOMAIN-SUFFIX,jsonp-ip.com
-DOMAIN-SUFFIX,l.google.com
 DOMAIN-SUFFIX,meowvps.com
 DOMAIN-SUFFIX,net.coffee
 DOMAIN-SUFFIX,nexscan.net
@@ -49,12 +51,16 @@ DOMAIN-SUFFIX,null-addr.com
 DOMAIN-SUFFIX,null-addr.info
 DOMAIN-SUFFIX,null-addr.net
 DOMAIN-SUFFIX,null-addr.org
+DOMAIN-SUFFIX,ooklaserver.net
 DOMAIN-SUFFIX,ping0.cc
 DOMAIN-SUFFIX,rss.ink
+DOMAIN-SUFFIX,scamalytics.com
 DOMAIN-SUFFIX,skk.moe
+DOMAIN-SUFFIX,speed.dler.io
 DOMAIN-SUFFIX,speedcheck.org
 DOMAIN-SUFFIX,speedtest.cn
 DOMAIN-SUFFIX,speedtest.net
+DOMAIN-SUFFIX,speedtestcustom.com
 DOMAIN-SUFFIX,sspanel.net
 DOMAIN-SUFFIX,surfshark.com
 DOMAIN-SUFFIX,surfsharkdns.com
@@ -67,4 +73,3 @@ DOMAIN-SUFFIX,whatismyip.com.tw
 DOMAIN-SUFFIX,whoer.com
 DOMAIN-SUFFIX,whoer.net
 DOMAIN-SUFFIX,whoisip.me
-DOMAIN-SUFFIX,workers.dev

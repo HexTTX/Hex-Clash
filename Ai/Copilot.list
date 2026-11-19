@@ -2,9 +2,9 @@
 # AUTHOR: Hexon
 # REPO: https://github.com/HexTTX/Hex-Clash
 # UPDATED: 2026-11-19
-# DOMAIN: 38
-# DOMAIN-SUFFIX: 5
-# TOTAL: 43
+# DOMAIN: 41
+# DOMAIN-SUFFIX: 8
+# TOTAL: 49
 
 # 核心域名
 DOMAIN,copilot.microsoft.com
@@ -14,19 +14,19 @@ DOMAIN,www.bingapis.com
 
 # Edge 和设计相关
 DOMAIN,edge.microsoft.com
-DOMAIN,edgeservices.bing.com
 DOMAIN,designer.microsoft.com
 
 # API 和网关
 DOMAIN,gateway-copilot.bingviz.microsoftapp.net
 DOMAIN,gateway.bingviz.microsoftapp.net
-DOMAIN,sapphire.api.microsoftapp.net
+DOMAIN,gateway.bingviz.microsoft.net
 DOMAIN,services.bingapis.com
 
-# Bing 相关
+# Bing 相关与搜索摘要
 DOMAIN,th.bing.com
 DOMAIN,c.bing.com
 DOMAIN,ssl.bing.com
+DOMAIN,r.bing.com
 
 # Microsoft 基础服务
 DOMAIN,access-point.cloudmessaging.edge.microsoft.com
@@ -51,22 +51,28 @@ DOMAIN,mobile.events.data.microsoft.com
 DOMAIN,in.appcenter.ms
 DOMAIN,analytics.adjust.com
 
-# 其他服务
+# 其他服务与资源
 DOMAIN,api.msn.com
+DOMAIN,assets.msn.com
 DOMAIN,prod.rewardsplatform.microsoft.com
 
-# GitHub Copilot 开发者 API
+# GitHub Copilot 开发者 API 与实时通道
 DOMAIN,api.githubcopilot.com
 DOMAIN,copilot-proxy.githubusercontent.com
 DOMAIN,copilot-telemetry.githubusercontent.com
+DOMAIN,copilot-telemetry-service.githubusercontent.com
 DOMAIN,origin-tracker.githubusercontent.com
 DOMAIN,default.exp-tas.com
 DOMAIN,copilot-workspace.githubnext.com
 DOMAIN,copilotprodattachments.blob.core.windows.net
+DOMAIN,production-copilot-host-westus.webpubsub.azure.com
 
 # 域名后缀
-DOMAIN-SUFFIX,copilot.com
-DOMAIN-SUFFIX,prod.do.dsp.mp.microsoft.com
-DOMAIN-SUFFIX,copilot.cloud.microsoft
 DOMAIN-SUFFIX,ai.azure.com
+DOMAIN-SUFFIX,api.microsoftapp.net
+DOMAIN-SUFFIX,bing-shopping.microsoft-falcon.io
+DOMAIN-SUFFIX,copilot.cloud.microsoft
+DOMAIN-SUFFIX,copilot.com
+DOMAIN-SUFFIX,edgeservices.bing.com
 DOMAIN-SUFFIX,githubcopilot.com
+DOMAIN-SUFFIX,prod.do.dsp.mp.microsoft.com
