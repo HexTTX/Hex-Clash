@@ -1,14 +1,10 @@
-# NAME: Cursor
+# NAME: CurSor
 # AUTHOR: Hexon
 # REPO: https://github.com/HexTTX/Hex-Clash
 # UPDATED: 2026-11-19
 # DOMAIN: 6
-# DOMAIN-KEYWORD: 1
 # DOMAIN-SUFFIX: 9
-# TOTAL: 16
-
-# 关键字匹配
-DOMAIN-KEYWORD,cursor
+# TOTAL: 15
 
 # 核心 API 域名
 DOMAIN,api.cursor.sh

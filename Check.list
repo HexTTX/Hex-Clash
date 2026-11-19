@@ -1,11 +1,10 @@
 # NAME: Check
 # AUTHOR: Hexon
 # REPO: https://github.com/HexTTX/Hex-Clash
-# UPDATED: 2026-10-14
+# UPDATED: 2026-11-19
 # DOMAIN: 1
 # DOMAIN-SUFFIX: 58
-# IP-CIDR: 2
-# TOTAL: 61
+# TOTAL: 59
 
 # 核心域名
 DOMAIN,speed.cloudflare.com
@@ -69,7 +68,3 @@ DOMAIN-SUFFIX,whoer.com
 DOMAIN-SUFFIX,whoer.net
 DOMAIN-SUFFIX,whoisip.me
 DOMAIN-SUFFIX,workers.dev
-
-# IP-CIDR
-IP-CIDR,142.251.215.0/24,no-resolve
-IP-CIDR,74.125.250.0/24,no-resolve

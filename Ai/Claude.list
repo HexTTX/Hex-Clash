@@ -3,19 +3,8 @@
 # REPO: https://github.com/HexTTX/Hex-Clash
 # UPDATED: 2026-11-19
 # DOMAIN: 10
-# DOMAIN-KEYWORD: 5
 # DOMAIN-SUFFIX: 33
-# IP-CIDR: 1
-# IP-CIDR6: 1
-# IP-ASN: 1
-# TOTAL: 51
-
-# 关键字匹配
-DOMAIN-KEYWORD,claude
-DOMAIN-KEYWORD,anthropic
-DOMAIN-KEYWORD,datadog
-DOMAIN-KEYWORD,sift
-DOMAIN-KEYWORD,sentry
+# TOTAL: 43
 
 # 核心域名
 DOMAIN,cdn.usefathom.com
@@ -64,7 +53,3 @@ DOMAIN-SUFFIX,modelcontextprotocol.net
 
 DOMAIN-SUFFIX,withpersona.com
 DOMAIN-SUFFIX,claude403.com
-# IP 段 / ASN 兜底
-IP-CIDR,160.79.104.0/21,no-resolve
-IP-CIDR6,2607:6bc0::/32,no-resolve
-IP-ASN,399358,no-resolve

@@ -3,16 +3,8 @@
 # REPO: https://github.com/HexTTX/Hex-Clash
 # UPDATED: 2026-11-19
 # DOMAIN: 17
-# DOMAIN-KEYWORD: 3
 # DOMAIN-SUFFIX: 36
-# IP-CIDR: 2
-# IP-ASN: 1
-# TOTAL: 59
-
-# 关键字匹配
-DOMAIN-KEYWORD,openai
-DOMAIN-KEYWORD,chatgpt
-DOMAIN-KEYWORD,codex
+# TOTAL: 53
 
 # 核心域名
 DOMAIN,static.cloudflareinsights.com
@@ -70,10 +62,3 @@ DOMAIN-SUFFIX,turn.livekit.cloud
 DOMAIN-SUFFIX,webpubsub.azure.com
 DOMAIN-SUFFIX,statsigapi.net
 DOMAIN-SUFFIX,observeit.net
-
-# 官方 IP / ASN 兜底
-IP-ASN,20473,no-resolve
-
-# IP/ASN 规则 (洗血补充)
-IP-CIDR,24.199.123.28/32,no-resolve
-IP-CIDR,64.23.132.171/32,no-resolve
