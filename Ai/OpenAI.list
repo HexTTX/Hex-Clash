@@ -1,11 +1,11 @@
 # NAME: OpenAI
 # AUTHOR: Hexon
 # REPO: https://github.com/HexTTX/Hex-Clash
-# UPDATED: 2026-10-04
+# UPDATED: 2026-11-19
 # DOMAIN: 16
 # DOMAIN-KEYWORD: 3
-# DOMAIN-SUFFIX: 34
-# TOTAL: 54
+# DOMAIN-SUFFIX: 35
+# TOTAL: 55
 
 # 关键字匹配
 DOMAIN-KEYWORD,openai
@@ -59,6 +59,7 @@ DOMAIN-SUFFIX,openaicom.imgix.net
 DOMAIN-SUFFIX,revenuecat.com
 DOMAIN-SUFFIX,sentry.io
 DOMAIN-SUFFIX,sora.com
+DOMAIN-SUFFIX,searchgpt.com
 DOMAIN-SUFFIX,statsig.com
 DOMAIN-SUFFIX,stripe.com
 DOMAIN-SUFFIX,turn.livekit.cloud
