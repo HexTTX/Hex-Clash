@@ -2,10 +2,12 @@
 # AUTHOR: Hexon
 # REPO: https://github.com/HexTTX/Hex-Clash
 # UPDATED: 2026-11-19
-# DOMAIN: 16
+# DOMAIN: 17
 # DOMAIN-KEYWORD: 3
-# DOMAIN-SUFFIX: 35
-# TOTAL: 55
+# DOMAIN-SUFFIX: 36
+# IP-CIDR: 2
+# IP-ASN: 1
+# TOTAL: 59
 
 # 关键字匹配
 DOMAIN-KEYWORD,openai
@@ -13,6 +15,7 @@ DOMAIN-KEYWORD,chatgpt
 DOMAIN-KEYWORD,codex
 
 # 核心域名
+DOMAIN,static.cloudflareinsights.com
 DOMAIN,openai-api.arkoselabs.com
 DOMAIN,ab.chatgpt.com
 DOMAIN,api-js.mixpanel.com
@@ -31,6 +34,7 @@ DOMAIN,s.gravatar.com
 DOMAIN,openai.auth0.com
 
 # 域名后缀
+DOMAIN-SUFFIX,openai.com.cdn.cloudflare.net
 DOMAIN-SUFFIX,ai.com
 DOMAIN-SUFFIX,challenges.cloudflare.com
 DOMAIN-SUFFIX,chat.com
@@ -69,3 +73,7 @@ DOMAIN-SUFFIX,observeit.net
 
 # 官方 IP / ASN 兜底
 IP-ASN,20473,no-resolve
+
+# IP/ASN 规则 (洗血补充)
+IP-CIDR,24.199.123.28/32,no-resolve
+IP-CIDR,64.23.132.171/32,no-resolve

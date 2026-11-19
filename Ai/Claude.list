@@ -3,12 +3,12 @@
 # REPO: https://github.com/HexTTX/Hex-Clash
 # UPDATED: 2026-11-19
 # DOMAIN: 10
-# DOMAIN-SUFFIX: 27
 # DOMAIN-KEYWORD: 5
+# DOMAIN-SUFFIX: 33
 # IP-CIDR: 1
 # IP-CIDR6: 1
 # IP-ASN: 1
-# TOTAL: 45
+# TOTAL: 51
 
 # 关键字匹配
 DOMAIN-KEYWORD,claude
@@ -30,6 +30,12 @@ DOMAIN,browser-intake-us5-datadoghq.com
 DOMAIN,cdn.growthbook.io
 
 # 域名后缀
+DOMAIN-SUFFIX,ant.dev
+DOMAIN-SUFFIX,anthropic.team
+DOMAIN-SUFFIX,antspace.dev
+DOMAIN-SUFFIX,chatbotclaude.com
+DOMAIN-SUFFIX,claudeacademy.com
+DOMAIN-SUFFIX,claudepages.dev
 DOMAIN-SUFFIX,claude.ai
 DOMAIN-SUFFIX,claude.com
 DOMAIN-SUFFIX,claude.site
