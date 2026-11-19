@@ -14,8 +14,22 @@
   * `HonorofKings` 等
 * **`Media/`** —— 流媒体与网络电视
   * `TVBox`（纯净收敛规则） / `Crunchyroll` 等
-* **`Check.list`** —— 节点网络质量、IP 纯净度与 DNS/WebRTC 泄露检测专用规则集
+* **`Check.list`** —— 节点网络质量、IP 纯净度与 DNS/WebRTC 泄露检测专用规则集（包含 Ookla 测速、Scamalytics IP 欺诈分、IPQualityScore 风控探针，严格排毒杜绝泛解析抢占）
 * **`GooglePlay.list`** —— 应用商店下载链路加速规则集
+
+---
+
+## 🛡️ 软路由自嵌内联规则加固 (Inline Rules)
+
+在异地双软路由主配置 `/etc/openclash/HexClash.yaml` 的顶层 `rules:` 中，内嵌专属防风控与协议穿透规则：
+
+* **Cloudflare Turnstile / Challenges 人机验证专线**：
+  * 阻断 `challenges.cloudflare.com` 与 `challenges.cloudflare.net` 的 IPv6 泄露，强制 Clean IPv4；
+  * 聚合调度 `turnstile.cloudflare.com`、`challenges.cloudflare.net`、`static.cloudflareinsights.com`、`cf-assets.hcaptcha.com` 走高洁净度节点，杜绝验证死循环。
+* **Stripe 国际支付与 3DS 防风控专线**：
+  * 统筹 `stripe.com`、`stripe.network`、`stripecdn.com`、`stripe-payments.com` 及 Visa/Mastercard 3D Secure 验证网关 `cardinalcommerce.com`，防范换 IP 导致的拒付与风控。
+* **Apple APNs 毫秒级推送保活**：
+  * 放行 DST-PORT `5223` 并内嵌直连 `push.apple.com`、`courier.push.apple.com`、`gateway.push.apple.com`，保障锁屏消息低延迟秒触达且避免电量消耗。
 
 ---
 
